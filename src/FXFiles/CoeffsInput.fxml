@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="PaneForAll" maxHeight="300.0" maxWidth="300.0" minHeight="168.0" minWidth="300.0" prefHeight="222.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXFiles.CoeffsWindow">
+   <children>
+      <TextField fx:id="aField" layoutX="140.0" layoutY="53.0" prefHeight="25.0" prefWidth="100.0" text="2" />
+      <Button fx:id="okButton" layoutX="154.0" layoutY="149.0" mnemonicParsing="false" onAction="#okAction" prefHeight="50.0" prefWidth="100.0" text="OK" />
+      <Button fx:id="cancelButton" layoutX="24.0" layoutY="149.0" mnemonicParsing="false" onAction="#cancelAction" prefHeight="50.0" prefWidth="100.0" text="Cancel" />
+      <Label fx:id="aLabel" layoutX="94.0" layoutY="57.0" text="a =" />
+      <Label fx:id="bLabel" layoutX="93.0" layoutY="102.0" text="b =" />
+      <Label fx:id="nameOfFunc" layoutX="126.0" layoutY="14.0" text="Func" />
+      <TextField fx:id="bField" layoutX="140.0" layoutY="98.0" prefHeight="26.0" prefWidth="100.0" text="2" />
+   </children>
+</AnchorPane>
